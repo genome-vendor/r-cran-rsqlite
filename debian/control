@@ -1,0 +1,14 @@
+Source: r-cran-rsqlite
+Section: gnu-r
+Priority: optional
+Maintainer: Seth Falcon <seth@userprimary.net>
+Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0), cdbs
+Homepage: http://www.omegahat.org/RCurl/
+
+Package: r-cran-rsqlite
+Architecture: all
+Maintainer: Seth Falcon <seth@userprimary.net>
+Description: Database Interface R driver for SQLite. This package embeds the SQLite database engine in R and provides an interface compliant with the DBI package.
+License: LGPL-2
+Depends: r-base-core, r-cran-dbi
+
